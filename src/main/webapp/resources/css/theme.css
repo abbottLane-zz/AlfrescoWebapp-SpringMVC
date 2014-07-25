@@ -1,0 +1,108 @@
+
+.tabs li {
+    /* Makes a horizontal row */
+
+    right: 200px;
+}
+.tabs a {
+    /* Make them block level
+       and only as wide as they need */
+    float: left;
+    padding: 10px 40px;
+    text-decoration: none;
+
+    /* Default colors */
+    color: steelblue;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+.tabs .active a {
+    /* Colors when tab is active */
+    background: #83D1FF;
+    color: whitesmoke;
+}
+a:hover, a.on, a.tabs{
+    color: whitesmoke;
+    background-color: #6badd6;
+}
+
+#imgRef:hover{
+    background-color: transparent;
+}
+
+#app{
+    text-align: left;
+    right: 200px;
+}
+
+
+ul {
+    /*background: red;*/
+    list-style: none;
+
+    /* contain the list items */
+    overflow: hidden;
+    margin: 0;
+
+    /* ul will behave like a table now */
+    text-align: center;
+}
+
+ul li {
+    /* float: left; */
+    display: inline-block;
+}
+
+ul li a {
+
+    background: #000;
+    color: #fff;
+
+    /*float: left;*/
+    /* some height would be nice */
+    line-height: 3em;
+    /* adjusting height */
+    display: block; /* or inline-block */
+}
+#drop {
+    text-align: left;
+}
+.errorMessage {
+    font-weight: bold;
+    color: red;
+}
+#nav{
+    border: 5px outset;
+    background: whitesmoke;
+    list-style: none;
+    color: white;
+
+    overflow: hidden;
+}
+#form{
+    color: black;
+    background: whitesmoke;
+    list-style: none;
+    border: solid 1px lightgray;
+
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+}
+#results
+{
+    font-family: sans-serif;
+    background: whitesmoke;
+    list-style: none;
+    border: solid 1px lightgray;
+    color: black;
+    overflow: hidden;
+
+}
+img {
+    opacity: .4;
+}
+
+img:hover {
+    opacity: 1.0;
+}
